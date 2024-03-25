@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+$background: #f8f7f4;  
+$color: #435a47; 
+
+body {
+    background-color: $background;
+    color: $color; 
+
+    //===========================================================================
+    //=============================   TOP SECTION   =============================
+    //===========================================================================
+    .top-section {
+        background-color: $background; 
+        padding: 0; 
+        position: relative;
+        height: 600px;
+
+        .image-container {
+            background-image: url('img/vegetables_1920.jpg');
+            background-size: cover; 
+            background-position: 25% 25%; 
+            background-repeat: no-repeat;
+            height: 100%;
+            position: relative;
+
+            .svg_top {
+                position: absolute;
+                top: -0.5rem; 
+            }
+        }
+       
+        .svg_bottom {
+            position: absolute;
+            bottom: -0.3rem; 
+            right: 0;  
+            width: 100%;
+            height: auto; 
+        }
+    }
+
+}

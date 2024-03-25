@@ -1,14 +1,18 @@
 * {
     box-sizing: border-box;
 }
+
+$heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $background: #f8f7f4;  
 $color: #435a47; 
 
 body {
     background-color: $background;
+    font-family: $heading-font;
     color: $color; 
     margin-left: 0; 
     margin-right: 0;
+    margin-bottom: 0; 
 
     //===========================================================================
     //=============================   TOP SECTION   =============================
@@ -41,13 +45,14 @@ body {
             height: auto; 
         }
     }
-
+    //===========================================================================
+    //===========================   MIDDLE SECTION   ============================
+    //===========================================================================
     .middle-section {
         margin-top: 10px;
         padding: 10px; 
         display: flex;
         gap: 10px; 
-        border: 2px solid blue; 
 
         .image-strawberries {
             border-radius: 40px; 
@@ -58,6 +63,16 @@ body {
         .text-container {
             margin-right: 20px;
         }
+    }
+    //===========================================================================
+    //===============================   FOOTER   ================================
+    //===========================================================================
+    .footer {
+        background-color: #879487;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
 }

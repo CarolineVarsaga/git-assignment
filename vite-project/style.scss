@@ -7,6 +7,8 @@ $color: #435a47;
 body {
     background-color: $background;
     color: $color; 
+    margin-left: 0; 
+    margin-right: 0;
 
     //===========================================================================
     //=============================   TOP SECTION   =============================
@@ -37,6 +39,24 @@ body {
             right: 0;  
             width: 100%;
             height: auto; 
+        }
+    }
+
+    .middle-section {
+        margin-top: 10px;
+        padding: 10px; 
+        display: flex;
+        gap: 10px; 
+        border: 2px solid blue; 
+
+        .image-strawberries {
+            border-radius: 40px; 
+            box-shadow: 2px 2px 10px rgb(182, 180, 180);
+            object-fit: cover;
+        }
+
+        .text-container {
+            margin-right: 20px;
         }
     }
 

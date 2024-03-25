@@ -2,12 +2,57 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/main.js"></script>
-    <title>Vite App</title>
+    <title>Carros hobby</title>
   </head>
+
   <body>
-    <h1>Heading</h1>  
+    <header class="header">
+      <h1 class="heading">Carros hobby</h1> 
+    </header>
+
+    <main class="main">
+
+      <section class="top-section">
+        <div class="image-container">
+        </div>
+      </section> 
+
+      <section class="middle-section">
+        <img>
+        <div class="text-container">
+          <h2>Odling</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi praesentium voluptatibus nesciunt?</p>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div id="slideContainer">
+          <div class="slides fade">              
+            <picture>
+            <img src="img/..." alt="alttext här" height="500px" loading="lazy" class="slide_img">
+            </picture>
+          </div>
+          <a class="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+          </a>
+          <a class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+          </a>
+
+          <div class="dot_container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+   
+    <footer class="footer">Copyright &copy; Caroline Vårsaga 2024</footer>
   </body>
 </html>

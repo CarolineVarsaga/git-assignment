@@ -2,12 +2,80 @@
 <html lang="sv">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script type="module" src="/main.js"></script>
-    <title>Vite App</title>
+    <title>Carros hobby</title>
   </head>
+
   <body>
-    <h1>Carros hobby</h1>  
+    <header class="header">
+      <h1 class="heading">Carros hobby</h1> 
+    </header>
+
+    <main class="main">
+
+      <section class="top-section">
+        <div class="image-container">
+          <svg id="waveTop" class="svg_top" style="transform:rotate(180deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>
+        </div>
+        <svg id="waveBottom" class="svg_bottom" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0"><stop stop-color="rgba(248, 247, 244, 1)" offset="0%"></stop><stop stop-color="rgba(248, 247, 244, 1)" offset="100%"></stop></linearGradient></defs><path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,50L48,55C96,60,192,70,288,65C384,60,480,40,576,36.7C672,33,768,47,864,48.3C960,50,1056,40,1152,41.7C1248,43,1344,57,1440,61.7C1536,67,1632,63,1728,65C1824,67,1920,73,2016,65C2112,57,2208,33,2304,21.7C2400,10,2496,10,2592,8.3C2688,7,2784,3,2880,1.7C2976,0,3072,0,3168,6.7C3264,13,3360,27,3456,28.3C3552,30,3648,20,3744,13.3C3840,7,3936,3,4032,13.3C4128,23,4224,47,4320,46.7C4416,47,4512,23,4608,11.7C4704,0,4800,0,4896,1.7C4992,3,5088,7,5184,15C5280,23,5376,37,5472,41.7C5568,47,5664,43,5760,43.3C5856,43,5952,47,6048,48.3C6144,50,6240,50,6336,43.3C6432,37,6528,23,6624,23.3C6720,23,6816,37,6864,43.3L6912,50L6912,100L6864,100C6816,100,6720,100,6624,100C6528,100,6432,100,6336,100C6240,100,6144,100,6048,100C5952,100,5856,100,5760,100C5664,100,5568,100,5472,100C5376,100,5280,100,5184,100C5088,100,4992,100,4896,100C4800,100,4704,100,4608,100C4512,100,4416,100,4320,100C4224,100,4128,100,4032,100C3936,100,3840,100,3744,100C3648,100,3552,100,3456,100C3360,100,3264,100,3168,100C3072,100,2976,100,2880,100C2784,100,2688,100,2592,100C2496,100,2400,100,2304,100C2208,100,2112,100,2016,100C1920,100,1824,100,1728,100C1632,100,1536,100,1440,100C1344,100,1248,100,1152,100C1056,100,960,100,864,100C768,100,672,100,576,100C480,100,384,100,288,100C192,100,96,100,48,100L0,100Z"></path></svg>
+      </section> 
+
+      <section class="middle-section">
+        <img src="img/strawberries_640.jpg" width="250px" height="250px" alt="Liten plåthink fylld med jordgubbar" loading="lazy" class="image-strawberries">
+        <div class="text-container">
+          <h2>Odling</h2>
+          <p>
+            En hobby jag har är att odla och plantera. Jag har flertalet pallkragar där jag har olika sorters jordgubbar. 
+            Har även en pallkrage innehållandes smultron och åkerbär.
+          </p>
+          <p>
+            Jag har en odlingsbänk i midjehöjd där jag på våren brukar så sallad, squash och pumpa. Salladen brukar ta sig väldigt 
+            bra och går att plocka under i stort sett hela sommaren. 
+          </p>
+          <p>
+            Har ett litet växthus på 4 kvm där jag förra året (2023) byggde odlingslådor. Har innan odlat i hinkar. 
+            Tomat- och gurkplantorna trivdes enormt i sina nya lådor. Blev som en djungel där inne. 
+            I år ska vi bygga ett till växthus, detta på 14 kvm. Ser framemot att odla grönsaker i det! 
+          </p>
+        </div>
+      </section>
+
+      <section class="bottom-section">
+        <div id="slideContainer">
+          <div class="slides fade">              
+            <picture>
+            <img src="img/cucumber_1280.jpg" alt="Böjd gurka som hänger i sin planta" height="500px" loading="lazy" class="slide_img">
+            </picture>
+          </div>
+          <div class="slides fade">              
+            <picture>
+            <img src="img/tomatoes_1280.jpg" alt="Tomater som hänger i klase från plantan" height="500px" loading="lazy" class="slide_img">
+            </picture>
+          </div>
+          <div class="slides fade">              
+            <picture>
+            <img src="img/lettuce_1280.jpg" alt="Inzoomad bild av blöta salladsblad" height="500px" loading="lazy" class="slide_img">
+            </picture>
+          </div>
+          <a class="prev">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff"><path d="M400-80 0-480l400-400 71 71-329 329 329 329-71 71Z"/></svg>
+          </a>
+          <a class="next">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" fill="#fff"><path d="m321-80-71-71 329-329-329-329 71-71 400 400L321-80Z"/></svg>
+          </a>
+
+          <div class="dot_container">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+   
+    <footer class="footer">Copyright &copy; Caroline Vårsaga 2024</footer>
   </body>
 </html>

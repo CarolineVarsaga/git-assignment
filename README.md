@@ -9,5 +9,5 @@ För G:
 
 För VG: 
 - [X] En cherry pick (skriv i commitmeddelandet)
-- [] En rebase på main 
+- [X] En rebase på main 
 - [X] En merge mellan två nya brancher (ska framgå i kommentar)

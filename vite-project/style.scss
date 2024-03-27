@@ -2,13 +2,13 @@
     box-sizing: border-box;
 }
 
-$heading-font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 $background: #f8f7f4;  
 $color: #435a47; 
 
 body {
     background-color: $background;
-    font-family: $heading-font;
+    font-family: $font;
     color: $color; 
     margin-left: 0; 
     margin-right: 0;
@@ -20,6 +20,7 @@ body {
         padding-left: 10px; 
         .heading {
             font-style: italic;
+            font-family: "Poiret One", sans-serif;
         }
     }
 
